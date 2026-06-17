@@ -1,0 +1,29 @@
+<h2>Medicines List</h2>
+
+<input type="text" [(ngModel)]="searchTerm" placeholder="Search by name" />
+<table border="1" cellpadding="5">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Expiry Date</th>
+    <th>Quantity</th>
+    <th>Price</th>
+    <th>Brand</th>
+    <th>Actions</th>
+  </tr>
+  
+  <tr *ngFor="let med of filteredMedicines()" [ngClass]="{
+      'expired': isExpiringSoon(med.expiryDate),
+      'low-stock': med.quantity < 10
+    }">
+    <td>{{ med.id }}</td>
+    <td>{{ med.name }}</td>
+    <td>{{ med.expiryDate | date }}</td>
+    <td>{{ med.quantity }}</td>
+    <td>{{ med.price }}</td>
+    <td>{{ med.brand }}</td>
+    <td>
+      <button (click)="sellMedicine(med.id)">Sell</button>
+    </td>
+  </tr>
+</table>

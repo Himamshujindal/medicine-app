@@ -1,0 +1,9 @@
+<h2>Add Medicine</h2>
+<form (ngSubmit)="onSubmit()" #medicineForm="ngForm">
+  <label>Name: <input type="text" [(ngModel)]="medicine.name" name="name" required></label><br>
+  <label>Expiry Date: <input type="date" [(ngModel)]="medicine.expiryDate" name="expiryDate" required></label><br>
+  <label>Quantity: <input type="number" [(ngModel)]="medicine.quantity" name="quantity" required></label><br>
+  <label>Price: <input type="number" [(ngModel)]="medicine.price" name="price" required></label><br>
+  <label>Brand: <input type="text" [(ngModel)]="medicine.brand" name="brand" required></label><br>
+  <button type="submit">Add Medicine</button>
+</form>

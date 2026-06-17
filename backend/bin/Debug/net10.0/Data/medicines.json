@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "Name": "Aspirin 1",
+    "Notes": "Pain relief",
+    "ExpiryDate": "2028-12-20T00:00:00",
+    "Quantity": 70,
+    "Price": 5.99,
+    "Brand": "Bayer"
+  },
+  {
+    "Id": 2,
+    "Name": "Amoxicillin",
+    "Notes": "Antibiotic",
+    "ExpiryDate": "2029-06-25T00:00:00",
+    "Quantity": 100,
+    "Price": 120,
+    "Brand": "Sun Pharma"
+  },
+  {
+    "Id": 3,
+    "Name": "Vitamin C",
+    "Notes": "Supplement",
+    "ExpiryDate": "2027-01-15T00:00:00",
+    "Quantity": 5,
+    "Price": 60,
+    "Brand": "Himalaya"
+  },
+  {
+    "Id": 4,
+    "Name": "Ibuprofen",
+    "Notes": "Anti-inflammatory",
+    "ExpiryDate": "2029-07-05T00:00:00",
+    "Quantity": 200,
+    "Price": 80,
+    "Brand": "Dr. Reddy"
+  },
+  {
+    "Id": 5,
+    "Name": "Cetirizine",
+    "Notes": "Anti-allergy",
+    "ExpiryDate": "2029-06-20T00:00:00",
+    "Quantity": 9,
+    "Price": 40,
+    "Brand": "Zydus"
+  },
+  {
+    "Id": 6,
+    "Name": "Metformin",
+    "Notes": "Diabetes control",
+    "ExpiryDate": "2027-03-10T00:00:00",
+    "Quantity": 8,
+    "Price": 150,
+    "Brand": "Torrent"
+  },
+  {
+    "Id": 7,
+    "Name": "Omeprazole",
+    "Notes": "Acidity relief",
+    "ExpiryDate": "2026-06-19T00:00:00",
+    "Quantity": 60,
+    "Price": 95,
+    "Brand": "Ranbaxy"
+  },
+  {
+    "Id": 8,
+    "Name": "test",
+    "Notes": null,
+    "ExpiryDate": "2028-06-25T00:00:00Z",
+    "Quantity": 87,
+    "Price": 84,
+    "Brand": "yets"
+  }
+]
