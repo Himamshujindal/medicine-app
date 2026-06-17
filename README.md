@@ -13,10 +13,10 @@ A full-stack application for managing medicines and sales in a pharmacy.
 ## Setup Instructions
 
 ### Frontend (Angular)
-cd frontend
-npm install
-ng serve
+- cd frontend
+- npm install
+- ng serve
 
 ### cd backend
-dotnet run
+- dotnet run
 
