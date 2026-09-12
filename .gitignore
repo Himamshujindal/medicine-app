@@ -1,13 +1,13 @@
-# Build output
+# Build outputs
 bin/
 obj/
 Debug/
 Release/
 */bin/
 */obj/
-.vs/
 
-# User-specific files
+# Visual Studio
+.vs/
 *.user
 *.suo
 *.cache
