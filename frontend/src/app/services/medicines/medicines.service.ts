@@ -7,7 +7,7 @@ import { Medicine } from '../../models/medicine.model';
   providedIn: 'root'
 })
 export class MedicinesService {
-  private apiUrl = 'http://localhost:5092/api/medicines';
+  private apiUrl = 'https://backend-medicine-hbh0f2ana5dsf3bz.westus3-01.azurewebsites.net/api/medicines';
 
   constructor(private http: HttpClient) {}
 
