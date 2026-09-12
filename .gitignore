@@ -5,6 +5,7 @@ Debug/
 Release/
 */bin/
 */obj/
+.vs/
 
 # User-specific files
 *.user
