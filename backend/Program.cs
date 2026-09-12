@@ -28,6 +28,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.MapGet("/", () => "Backend Medicine API is running!");
+
 app.MapControllers();
 
 app.Run();
