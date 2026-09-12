@@ -5,7 +5,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAngularApp",
         policy =>
         {
-            policy.WithOrigins("http://localhost:4200") // frontend URL
+            policy.WithOrigins("http://localhost:4200", "https://kind-mud-0c62f8210.3.azurestaticapps.net") // frontend URL
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
